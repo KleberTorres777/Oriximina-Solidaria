@@ -1,0 +1,39 @@
+/* Footer.css */
+footer {
+    background:  rgb(13,160,202);
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+.footer{
+  color: white;
+}
+
+  h1, h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    display: block;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  ul li {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logos {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  img {
+    padding: 7px;
+  }
+  

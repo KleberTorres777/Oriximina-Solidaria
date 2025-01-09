@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    padding: 10px 10px; 
+    background: rgb(13,160,202);
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.navbar img {
+    display: block;
+    height: 200px;
+    margin-left: -10px;
+}
+
+
+ul {
+    display: flex;
+    gap: 1.5em;
+    list-style: none;
+    padding-top: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #04D9B2;
+}
+
+.hamburguer {
+    display: none;
+    cursor: pointer;
+    padding: 16px;
+    font-size: 25px;
+}
+
+
+.menu {
+    display: flex;
+}
+
+.menu.active {
+    display: block;
+    position: absolute; 
+    top: 70px; 
+    left: 0;
+    background-color: rgb(13,160,202); 
+    color: white;
+    width: 100%; 
+    text-align: center;
+    padding-top: 20px; 
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    height: 100%;
+}
+
+.menu.active li {
+    margin: 15px 0;
+}
+
+@media (max-width: 768px) {
+    .hamburguer {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu.active {
+        display: block;
+    }
+}
+
+.introducao{
+    color: white;
+}

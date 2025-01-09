@@ -1,0 +1,30 @@
+h1{
+    font-size: 25px;
+    padding: 7px;
+}
+
+.img{
+    border-radius: 16px;
+}
+
+.descricao-campanha{
+    font-size: 18px;
+    padding: 7px;
+    text-align: center;
+}
+
+.meta,
+.arrecadado {
+    padding: 13px;
+}
+
+.meta strong,
+.arrecadado strong{
+    color: rgb(13,160,202);
+}
+
+.doar{
+    width: 320px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
